@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0b0c10;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aura {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 20px;
+    background: radial-gradient(circle, rgba(255,255,255,0.2), transparent 70%);
+    box-shadow: 0 0 40px 10px rgba(173, 216, 230, 0.6);
+}
+
+.aura img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+}
+
+.caption {
+    margin-top: 20px;
+    font-size: 1.4em;
+    color: #f0e68c;
+    text-shadow: 1px 1px 3px #000;
+}
